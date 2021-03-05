@@ -40,7 +40,3 @@ else:
     file_a = open(highlight_path + today_formated + '.txt', 'a+')
     file_a.write(str(timestamp) + '\n')
     file_a.close()
-
-# TODO:
-#   - daca intrerup un stream si il reincep in aceeasi zi, sa am fisiere separate cu index la final
-#   ex: 10-02-2021-0 | 10-02-2021-1
