@@ -32,8 +32,8 @@ else:
 
     # atunci cand facem stream peste 12 noaptea, ora actuala ar fi mai mica decat cea de inceput si ne-ar da
     # calculele peste cap
-    # if timestamp.days < 0:
-    #     timestamp = timedelta(days=0, seconds=timestamp.seconds)
+    if timestamp.days < 0:
+        timestamp = timedelta(days=0, seconds=timestamp.seconds)
 
     file.close()
     file_a = open(highlight_path + str(today) + '.txt', 'a+')
