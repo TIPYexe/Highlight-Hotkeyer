@@ -7,14 +7,15 @@ import os
 highlight_path = 'G:/Youtuber mare/Streaming/Highlight-timestamp/'
 
 # data de azi
-today = date.today()
+today = datetime.today()
+today_formated = datetime.strftime(today, '%d-%m-%Y')
 # sablon pt ora:minut:secunda
 FMT = '%H:%M:%S'
 
 # cand sciptul este apelat pt prima oara, el va creea un fisier cu numele = data la care facem stream-ul
 # in care adaugam ora la care am inceput streamul
-if not os.path.exists(highlight_path + str(today) + '.txt'):
-    file = open(highlight_path + str(today) + '.txt', 'a+')
+if not os.path.exists(highlight_path + today_formated + '.txt'):
+    file = open(highlight_path + today_formated + '.txt', 'a+')
     now = datetime.now()
     file.write(str(now.hour) + ':' + str(now.minute) + ':' + str(now.second) + '\n')
     file.write('\nMomente:\n')
@@ -23,7 +24,7 @@ if not os.path.exists(highlight_path + str(today) + '.txt'):
 # daca fisierul deja exista (deci suntem live) vrem sa adaugam minutul si secunda din stream la care se afla
 # highlight-ul
 else:
-    file = open(highlight_path + str(today) + '.txt', 'r')
+    file = open(highlight_path + today_formated + '.txt', 'r')
     now = datetime.now()
     string_now = str(now.hour) + ':' + str(now.minute) + ':' + str(now.second)
     contents = file.readlines()
@@ -36,7 +37,7 @@ else:
         timestamp = timedelta(days=0, seconds=timestamp.seconds)
 
     file.close()
-    file_a = open(highlight_path + str(today) + '.txt', 'a+')
+    file_a = open(highlight_path + today_formated + '.txt', 'a+')
     file_a.write(str(timestamp) + '\n')
     file_a.close()
 
