@@ -8,7 +8,9 @@ highlight_path = 'G:/Youtuber-mare/Streaming/Highlight-timestamp/'
 
 # data de azi
 today = datetime.today()
+yesterday = today - timedelta(days=1)
 today_formated = datetime.strftime(today, '%d-%m-%Y')
+yesterday_formated = datetime.strftime(yesterday, '%d-%m-%Y')
 # sablon pt ora:minut:secunda
 FMT = '%H:%M:%S'
 
@@ -16,7 +18,7 @@ curr_hour = datetime.now().hour
 
 # verific daca e trecut de ora 10 cand rulez scriptul, pentru ca altfel
 # si daca il rulez la 1 noaptea, mi-ar fi creat un fisier nou, si nu asta vreau
-if curr_hour > 10:
+if curr_hour > 10 or not os.path.exists(highlight_path + yesterday_formated + '.txt'):
     # cand sciptul este apelat pt prima oara, el va creea un fisier cu numele = data la care facem stream-ul
     # in care adaugam ora la care am inceput streamul
     if not os.path.exists(highlight_path + today_formated + '.txt'):
