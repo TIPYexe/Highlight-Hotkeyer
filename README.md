@@ -1,20 +1,26 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/TIPYexe/Highlight-Hotkeyer/blob/master/README.en.md)
 [![ro](https://img.shields.io/badge/lang-ro-green.svg)](https://github.com/TIPYexe/Highlight-Hotkeyer/blob/master/README.md)
 
+# Highlight-Hotkeyer 🌟
 
-# Highlight-Hotkeyer
-Acest program este menit sa ajute streamerii sa salveze momentele cu highlight-uri din livestream-urile lor.
-- atunci cand scriptul este rulat pentru prima oara va creea un fisier cu numele: [zi]-[luna]-[an]
-- cand fisierul exista deja, va adauga in fisier minutul din stream la care a fost apasat
+Ești în căutarea unei modalități de a captura acele momente epice din livestream-urile tale? Nu căuta mai departe! Highlight-Hotkeyer este aici să te ajute. 🎮💥
 
-Iar atunci cand va dori sa culeaga cele mai amuzante momente de pe stream, se va duce direct la timestamp-urile din fisierul stream-ului respectiv.
+Acest program inteligent este conceput pentru a ajuta streamerii să salveze fără efort momentele lor cele mai memorabile din timpul livestream-urilor. Prin apăsarea unei singure taste, poți marca acele momente epice și să creezi o înregistrare cu marcaje de timp pentru a le accesa ușor mai târziu.
 
-**Format fisier:**      
-ora:minut:secunda (la care a inceput stream-ul)
+**Cum funcționează:**
+- Scriptul generează un fișier nou cu numele [zi]-[lună]-[an] atunci când este rulat pentru prima oară.
+- Dacă fișierul există deja, adaugă minutul curent al livestream-ului în fișierul existent.
 
-Momente:  
-ora:minut:secunda  
-ora:minut:secunda  
-ora:minut:secunda  
-ora:minut:secunda  
+Așadar, atunci când vine momentul să aduni toate momentele amuzante din livestream, poți naviga cu ușurință la marcajele de timp din fișierul corespunzător stream-ului.
+
+**Format fișier:**
+Timpul de start: oră:minut:secundă
+
+Moment:  
+- oră:minut:secundă  
+- oră:minut:secundă  
+- oră:minut:secundă  
+- oră:minut:secundă  
 ...
+
+Capturează acele momente uimitoare și creează conținut memorabil pentru publicul tău! 🎥✨
