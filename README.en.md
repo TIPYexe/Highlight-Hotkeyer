@@ -1,20 +1,26 @@
-[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/TIPYexe/Highlight-Hotkeyer/blob/master/README.en.md)
-[![ro](https://img.shields.io/badge/lang-ro-red.svg)](https://github.com/TIPYexe/Highlight-Hotkeyer/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/TIPYexe/Highlight-Hotkeyer/blob/master/README.en.md)
+[![ro](https://img.shields.io/badge/lang-ro-green.svg)](https://github.com/TIPYexe/Highlight-Hotkeyer/blob/master/README.md)
 
-# Highlight-Hotkeyer
-This program is designed to assist streamers in capturing highlight moments from their livestreams.
+# Highlight-Hotkeyer 🌟
 
-- When the script is executed for the first time, it will create a file with the format: [day]-[month]-[year].
-- If the file already exists, it will append the minute of the stream when the hotkey was pressed.
+Looking to capture those epic highlights from your livestreams? Look no further! Highlight-Hotkeyer is here to save the day. 🎮💥
 
-When the streamer wants to gather the most entertaining moments from their stream, they can directly navigate to the timestamps in the respective stream file.
+This nifty program is designed to assist streamers in effortlessly saving their most memorable moments during livestreams. With just a simple keystroke, you can mark those epic moments and create a timestamped record for easy access later on.
 
-**File Format:**  
-hour:minute:second (when the stream started)
+**How it works:**   
+- The script generates a new file named [day]-[month]-[year] when run for the first time.
+- If the file already exists, it appends the current stream's minute to the existing file.
+
+So, when it's time to gather all the hilarious moments from your stream, you can easily navigate to the timestamps within the corresponding stream file.
+
+**File Format:**      
+Start Time: hour:minute:second
 
 Moments:  
-hour:minute:second  
-hour:minute:second  
-hour:minute:second  
-hour:minute:second  
+- hour:minute:second  
+- hour:minute:second  
+- hour:minute:second  
+- hour:minute:second  
 ...
+
+Capture those amazing highlights and create memorable content for your audience! 🎥✨
