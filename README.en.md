@@ -1,5 +1,5 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/TIPYexe/Highlight-Hotkeyer/blob/master/README.en.md)
-[![ro](https://img.shields.io/badge/lang-ro-green.svg)](https://github.com/TIPYexe/Highlight-Hotkeyer/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/TIPYexe/Highlight-Hotkeyer/blob/master/README.en.md)
+[![ro](https://img.shields.io/badge/lang-ro-red.svg)](https://github.com/TIPYexe/Highlight-Hotkeyer/blob/master/README.md)
 
 # Highlight-Hotkeyer 🌟
 
